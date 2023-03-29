@@ -1,12 +1,13 @@
+import Image from "next/image";
 import React from "react";
 
 const Header = () => {
   return (
     <header>
       <div className="header-bottons">
-        <img src="/media/header/Go back.svg" alt="" />
+        <Image src="/media/header/Go back.svg" alt="" />
         <button>
-          <img src="/media/header/Go forward.svg" alt="" />
+          <Image src="/media/header/Go forward.svg" alt="" />
         </button>
       </div>
       <div className="auth">

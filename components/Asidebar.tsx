@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Asidebar = () => {
@@ -5,29 +6,29 @@ const Asidebar = () => {
     <aside>
       <div className="navegation-container">
         <div>
-          <img src="/media/aside/Logo.svg" alt="" />
+          <Image src="/media/aside/Logo.svg" alt="" />
         </div>
         <div>
           <div className="icon-link">
-            <img src="/media/aside/Home.svg" alt="" />
+            <Image src="/media/aside/Home.svg" alt="" />
             <span>Home</span>
           </div>
           <div className="icon-link">
-            <img src="/media/aside/Search.svg" alt="" />
+            <Image src="/media/aside/Search.svg" alt="" />
             <span>Search</span>
           </div>
           <div className="icon-link">
-            <img src="/media/aside/Library.svg" alt="" />
+            <Image src="/media/aside/Library.svg" alt="" />
             <span>Your Library</span>
           </div>
         </div>
         <div>
           <div className="icon-link">
-            <img src="/media/aside/CreatePlaylist.svg" alt="" />
+            <Image src="/media/aside/CreatePlaylist.svg" alt="" />
             <span>Create Playlist</span>
           </div>
           <div className="icon-link">
-            <img src="/media/aside/LikedSongs.svg" alt="" />
+            <Image src="/media/aside/LikedSongs.svg" alt="" />
             <span>Liked Songs</span>
           </div>
         </div>
