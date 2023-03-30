@@ -71,14 +71,17 @@ const index = () => {
             <span>Show all</span>
           </div>
           <div className="playlist-section-container">
-            <PlaylistCard
-              img={"/media/playlist/TTH.svg"}
-              name={"Today's Top Hits"}
-              description={
-                "PinkPantheress & Ice Spice are on top of the Hottest 50!"
-              }
-              size={0}
-            />
+          {playlistInfo.focus.map((playlist, index) => {
+              return (
+                <PlaylistCard
+                  key={`${playlist.name}_${index}`} /* IMPORTANTE */
+                  img={playlist.img}
+                  name={playlist.name}
+                  description={playlist.description}
+                  size={149.17}
+                />
+              );
+            })}
           </div>
         </div>
       </section>

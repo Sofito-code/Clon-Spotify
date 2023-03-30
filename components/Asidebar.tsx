@@ -6,29 +6,29 @@ const Asidebar = () => {
     <aside>
       <div className="navegation-container">
         <div>
-          <Image src="/media/aside/Logo.svg" alt="" />
+          <Image width={131} height={40} src="/media/aside/Logo.svg" alt="" />
         </div>
         <div>
           <div className="icon-link">
-            <Image src="/media/aside/Home.svg" alt="" />
+            <Image width={20} height={22} src="/media/aside/Home.svg" alt="" />
             <span>Home</span>
           </div>
           <div className="icon-link">
-            <Image src="/media/aside/Search.svg" alt="" />
+            <Image width={20} height={22} src="/media/aside/Search.svg" alt="" />
             <span>Search</span>
           </div>
           <div className="icon-link">
-            <Image src="/media/aside/Library.svg" alt="" />
+            <Image width={20} height={22} src="/media/aside/Library.svg" alt="" />
             <span>Your Library</span>
           </div>
         </div>
         <div>
           <div className="icon-link">
-            <Image src="/media/aside/CreatePlaylist.svg" alt="" />
+            <Image width={24} height={25} src="/media/aside/CreatePlaylist.svg" alt="" />
             <span>Create Playlist</span>
           </div>
           <div className="icon-link">
-            <Image src="/media/aside/LikedSongs.svg" alt="" />
+            <Image width={24} height={25} src="/media/aside/LikedSongs.svg" alt="" />
             <span>Liked Songs</span>
           </div>
         </div>
